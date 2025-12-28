@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galerie</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Portfolio - Baptiste Lecordier</h1>
+    <!-- JS injecte ici la ligne de contrôles (recherche + select tri + bouton Tout) -->
+    <input id="search" type="search" placeholder="Rechercher..." autocomplete="off" />
+  </header>
+
+  <main>
+    <div id="gallery" class="gallery"></div>
+  </main>
+
+  <!-- Viewer -->
+  <div id="viewer" class="viewer" aria-hidden="true">
+    <div class="viewer-actions">
+      <button id="back" class="btn back" type="button" aria-label="Retour">←</button>
+      <!-- bouton téléchargement supprimé -->
+    </div>
+
+    <div class="viewer-content">
+      <div class="detail-block">
+        <div id="ambient-light" class="ambient-light"></div>
+
+        <div class="detail-content">
+          <div class="image-wrapper">
+            <button id="nav-next" class="nav nav-left" type="button" aria-label="Précédent">‹</button>
+            <img id="viewer-image" alt="" draggable="false" />
+            <button id="nav-prev" class="nav nav-right" type="button" aria-label="Suivant">›</button>
+          </div>
+
+          <div id="viewer-title" class="viewer-title"></div>
+          <!-- JS injecte ici le bouton collection sous la forme Collection : "Nom" -->
+          <div id="viewer-date" class="meta"></div>
+
+          <div id="viewer-desc" class="description"></div>
+          <!-- pas d’images associées -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
