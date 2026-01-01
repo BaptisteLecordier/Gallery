@@ -275,5 +275,59 @@
     "description": "",
     "tags": ["cartoon", "noir et blanc"],
     "collectionId": "void"
+  },
+  {
+    "id": "octopus_dentiger",
+    "src": "./img/octopus_dentiger.png",
+    "name": "Octopus dentiger",
+    "date": "2026-01-01",
+    "description": "",
+    "tags": ["poulpe", "dent"],
+    "collectionId": "color space"
+  },
+  {
+    "id": "puella_maculata",
+    "src": "./img/puella_maculata.png",
+    "name": "Puella maculata",
+    "date": "2026-01-01",
+    "description": "",
+    "tags": ["fille", "pois"],
+    "collectionId": "color space"
+  },
+  {
+    "id": "draco_rotipedus",
+    "src": "./img/draco_rotipedus.png",
+    "name": "Draco rotipedus",
+    "date": "2026-01-01",
+    "description": "",
+    "tags": ["dragon", "roulette"],
+    "collectionId": "color space"
+  },
+  {
+    "id": "dens_rostratus_alatus",
+    "src": "./img/dens_rostratus_alatus.png",
+    "name": "Dens rostratus alatus",
+    "date": "2026-01-01",
+    "description": "",
+    "tags": ["dent", "oeil", "aile"],
+    "collectionId": "color space"
+  },
+  {
+    "id": "cyclops_pedipuerilis",
+    "src": "./img/cyclops_pedipuerilis.png",
+    "name": "Cyclops pedipuerilis",
+    "date": "2026-01-01",
+    "description": "",
+    "tags": ["cyclope", "oeil", "jambe"],
+    "collectionId": "color space"
+  },
+  {
+    "id": "balaena_chiropoda",
+    "src": "./img/balaena_chiropoda.png",
+    "name": "Balaena chiropoda",
+    "date": "2026-01-01",
+    "description": "",
+    "tags": ["baleine", "main"],
+    "collectionId": "color space"
   }
 ]
